@@ -1,0 +1,371 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.naver {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+
+}
+
+.naver1 img {
+    width: 80px;
+
+}
+
+.naver2 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.naver2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.ethnics {
+    border: 1px solid transparent;
+    width: 400px;
+    height: 80vh;
+    overflow: auto;
+    position: fixed;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ethnics1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.ethnics2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.ethnics2 p {
+    font-size: 19px;
+}
+
+.ethnics3 {
+    line-height: 30px;
+}
+
+.ethnics3 button {
+    background-color: blue;
+    padding: 2px 160px;
+    border-radius: 17px;
+}
+
+.ethnics3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    transform: translate(500px, 0px);
+    transition: 0.4s linear;
+}
+
+.naver2 :hover {
+    color: green;
+    transition: 1s linear;
+
+}
+
+.log {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPdZynR4umLFQQQGhKS3_0SKae4xzeAIuFLA&s);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ethnics3 i {
+    color: orange;
+}
+
+.men {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgb(210, 248, 210);
+    padding-bottom: 80px;
+}
+.men1{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(59, 59, 131);
+}
+
+.men2 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+.men3 {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.men2-box1 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_SGuMucmomh9Qf0Yf916IlkQdXttuU0RLQ&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.men2-box2 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://cdn.vanguardngr.com/wp-content/uploads/2017/03/Awolowo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.men2-box3 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://abu.edu.ng/wp-content/uploads/2023/08/image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.men2-box4 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2019/10/The-Herbert-Macualay-Affair1.jpg?fit=729%2C428&ssl=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.men3-box1 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://i0.wp.com/opinion.premiumtimesng.com/wp-content/files/sites/2/2020/09/Chief-Anthony-Enahoro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.men3-box2 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://guardian.ng/wp-content/uploads/2018/10/Funmilayo-Ransome-Kuti-art.-Photo-Pinterest.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.men3-box3 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Tafawa_Balewa_in_office_02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}.men3-box4 {
+    width: 230px;
+    height: 250px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMig3iG_3XfJXVhaIyOluVF2mjcKK0x_rfw&s);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.men2-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.men3-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jet{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 3rem;
+    justify-content: space-between;
+    background-color: rgb(210, 248, 210);
+}
+.jet1{
+    width: 500px;
+    line-height: 40px;
+}
+.History{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.semi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding-top: 80px;
+    background-color: rgb(210, 248, 210);
+    padding-bottom: 50px;
+}
+.semi1{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.semi2{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.semi3{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.semi2-box1{
+    background-image: url(https://cdn.britannica.com/77/10177-050-FD2B5C3F/detail-Lugard-painting-WJ-Carrow-National-Portrait-1936.jpg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi2-box2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbB4jz5gOcpUQiqveqRbn250iMEmxsKIRrjg&s);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi2-box3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/e/e1/Sir_Graeme_Thomson.png);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi2-box4{
+    background-image: url(https://profseunoyediji.wordpress.com/wp-content/uploads/2014/10/wpid-images.jpeg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi3-box1{
+    background-image: url(https://collectionimages.npg.org.uk/large/mw184012/Sir-Bernard-Henry-Bourdillon.jpg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi3-box2{
+    background-image: url(https://collectionimages.npg.org.uk/large/mw102221/Arthur-Frederick-Richards-1st-Baron-Milverton.jpg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi3-box3{
+    background-image: url(https://collectionimages.npg.org.uk/std/mw237694/Sir-John-Stuart-Macpherson.jpg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi3-box4{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/0/08/James_Wilson_Robertson.jpeg/220px-James_Wilson_Robertson.jpeg);
+    width: 230px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.semi2-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.semi3-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    gap: 6rem;
+}
+.footer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer1-box{
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.footer1-box a{
+    text-decoration: none;
+    color: white;
+}
+.footer1-box :hover{
+    color: red;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+.footer2 a{
+    text-decoration: none;
+    color: white;
+}
+.font :hover{
+text-decoration: underline;
+}
+
+
